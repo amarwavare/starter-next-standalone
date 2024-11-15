@@ -1,6 +1,6 @@
 "use client";
 import "../styles/globals.scss";
-import "../styles/dcp.module.scss";
+import "../styles/Dcp.module.scss";
 import type { AppProps } from "next/app";
 import { AppCacheProvider } from '@mui/material-nextjs/v14-pagesRouter';
 import ReduxProvider from "@/config/redux-saga/redux-provider";

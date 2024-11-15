@@ -1,4 +1,4 @@
-import '../../styles/dcp.module.scss';
+import '../../styles/Dcp.module.scss';
 // import home from '../../styles/Home.module.scss';
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DigitalCampusPlatform-Monorepo-FE.iml" filepath="$PROJECT_DIR$/.idea/DigitalCampusPlatform-Monorepo-FE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Starter-Next-Standalone.iml" filepath="$PROJECT_DIR$/.idea/Starter-Next-Standalone.iml" />
     </modules>
   </component>
 </project>

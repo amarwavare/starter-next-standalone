@@ -1,12 +1,12 @@
-import '@/styles/dcp.module.scss';
+import '@/styles/Dcp.module.scss';
 import Head from "next/head";
 import React, { Fragment, FC } from "react";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import { IPageWrapperProps } from "@/global/types";
 import { useTheme } from "@/branding/theme/context";
 import { pageMetaStaticContent } from "@/global/constants";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 const PageWrapper: FC<IPageWrapperProps> = ({
   children,
@@ -25,7 +25,7 @@ const PageWrapper: FC<IPageWrapperProps> = ({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main
-        className={`${inter.className}`}
+        // className={`${inter.className}`}
         style={
           {
             ...theme,

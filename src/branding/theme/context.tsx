@@ -1,9 +1,9 @@
 import React, { PropsWithChildren, useEffect } from "react";
+import { CssBaseline } from "@mui/material";
 import { THEMES, getTheme } from "./config";
+import { ThemeContextProps, ThemeProviderProps, ThemeType } from "./types";
 import { StorageService } from "@/services/storage.service";
 import { displayModeStorageKey, displayModeStorageValues } from "./constants";
-import { ThemeContextProps, ThemeProviderProps, ThemeType } from "./types";
-import { CssBaseline } from "@mui/material";
 
 export const ThemeContext = React.createContext<ThemeContextProps>({
   themeType: getTheme(),

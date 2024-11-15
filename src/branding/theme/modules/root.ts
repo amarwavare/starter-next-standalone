@@ -1,6 +1,6 @@
 import { Theme } from "../types";
 // import colors from '@/branding/scss/colors/colors.module.scss';
-import colors from '@/styles/dcp.module.scss';
+import colors from '@/styles/Dcp.module.scss';
 
 export const RootLightThemeModule: Theme = {
     "--background": colors.pageBackgroundLight,
