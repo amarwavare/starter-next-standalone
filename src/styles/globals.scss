@@ -1,0 +1,17 @@
+@import './dcp.module.scss';
+
+// :root {
+//   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+//     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+//     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+// }
+body, main {
+  margin: 0;
+  height: 100vh;
+  background-color: var(--background);
+}
+.app {
+  position: relative;
+  height: 100vh;
+  background-color: var(--background);
+}

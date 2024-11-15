@@ -1,0 +1,16 @@
+.containerMui {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: var(--typography);
+  background-color: var(--container-bg);
+  background: var(--container-bg);
+}
+.content__paragraph {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+.homeDiv {
+  text-align: right;
+}

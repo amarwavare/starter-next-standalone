@@ -1,0 +1,1 @@
+export const pageMetaStaticContent: string = 'Digital Campus Platform for Ed-Tech & Institutes'
